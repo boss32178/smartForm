@@ -1,0 +1,34 @@
+@import '../../../css/Colors.css';
+
+.dropDown {
+    margin-top: -11px;
+    font-size: 12px;
+    border: 1px solid var(--gray);
+    border-top: 0;
+    padding: 6px;
+    z-index: 9999;
+    overflow: auto;
+    max-height: 200px;
+    cursor: pointer;
+    top: 37px;
+    left: 0;
+    right:0;
+    position: absolute;
+    background-color: var(--white);
+}
+.dealer,
+.message {
+    padding: 5px 15px;
+    text-align: left;
+}
+.dealer:hover {
+    background-color: var(--hover-blue);
+    color:  var(--white);
+}
+.message {
+    color: var(--gray) ;
+}
+.relativePosition {
+    position: relative;
+}
+

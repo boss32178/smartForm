@@ -1,0 +1,23 @@
+
+.flex {
+    display: flex;
+}
+
+/*************************/
+
+.flexJustifyCenter {
+    justify-content: center;
+}
+
+
+
+/*************************/
+
+.flexAlignCenter {
+    align-items: center;
+    background-color: red;
+}
+
+.flexFill {
+    flex: 1 0 1px;
+}

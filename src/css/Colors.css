@@ -1,0 +1,8 @@
+:root {
+    --Light-gray: rgb(244, 244, 244);
+    --gray: rgb(169, 169, 169);
+    --light-blue: rgb(179, 212, 252);
+    --black-shadow: rgba(0, 0, 0, 0.075);
+    --hover-blue: rgb(173, 216, 230);
+    --white: rgb(255, 255, 255);
+}

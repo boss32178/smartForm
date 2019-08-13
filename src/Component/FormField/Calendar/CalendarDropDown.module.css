@@ -1,0 +1,22 @@
+.calendarDropDown{
+    border: solid rgb(204, 204, 204) 1px;
+    padding: 5px;
+    position: absolute;
+    width: 260px;
+    background: white;
+    z-index: 1;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+} 
+
+.calButton {
+    margin-top: 5px;
+}
+
+.calButtonBar {
+    justify-content: space-between;
+}
+
+.reactCalendar{
+    width:260px;
+    border:0;
+}

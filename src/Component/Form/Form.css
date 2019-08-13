@@ -1,0 +1,28 @@
+@import '../../css/Colors.css';
+
+form {
+    padding: 25px;
+}
+
+form > label {
+    padding: 5px;
+    display: flex;
+}
+
+form > div.button {
+    margin: 5px;
+    width: 75px;
+    height: 25px;
+    background-color: #56b42a;
+    color: white;
+    text-align: center;
+}
+
+form > div.button:hover {
+    transform: skew(-15deg);
+    cursor: pointer;
+}
+.highlighted {
+    color: rgb(255, 0, 0);
+    border-bottom: 1px dashed var(--gray);
+}

@@ -1,0 +1,54 @@
+.footer{
+    padding:0px 30px 20px 30px;
+    text-align:left;
+}
+
+.flexLabel{
+    margin-bottom: 25px;
+}
+
+
+.flexCancelColLeft{
+    flex-basis:432.5px;
+}
+
+.flexCancelColRight{
+    flex-basis:432.5px;
+}
+
+.inputLabel{
+    width:33%;
+}
+
+.smallerInput{
+    flex:0 1 24%;
+    margin-right:.7em;
+}
+
+.largerInput{
+    flex: 0 1 75%;
+}
+
+.boldLabel {
+    font-weight:bold;
+}
+
+.boldValue input{
+    font-weight:bold;
+}
+
+
+@media screen and (min-width: 920px) {
+    .flexCancelColLeft{
+        padding-right:27.5px;
+    }
+
+    .flexCancelColRight{
+        padding-left:27px;
+    }
+  
+  }
+
+
+
+
